@@ -1,0 +1,70 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+#page-heading{
+    text-align: center;
+    color: grey;
+    margin-top: 25px;
+}
+.contactlist{
+    height: auto;
+}
+.contactlist-list{
+    list-style: none;
+    width: 60%;
+    margin-left: 20%;
+    background-color: aquamarine;
+    display: flex;
+
+}
+.detail{
+    font-size: 1.3rem;
+    width: 90%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+ margin-bottom: 2.6px;
+}
+.detail p::first-letter{
+    text-transform: capitalize;
+}
+.detail:hover{
+    background-color: rgba(167, 161, 161, 0.6);
+}
+.delete-contact{
+    width: 10%;
+    text-align: center;
+    margin-top: 19px;
+    padding: 3px;
+}
+.delete-contact a{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+}
+
+
+.form{
+    margin-left: 21%;
+}
+
+.form input{
+    font-size: 1rem;
+    box-shadow: 1px 1px 3px 2px grey;
+    margin-right: 2px;
+    height: 40px;
+    outline: none;
+    border: 0;
+    background-color: rgb(221 207 207 / 60%);
+    font-weight: bold;
+    width: 33%;
+}
+.form button{
+    border-radius: 0px;
+    height: 40px;
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+}
